@@ -1,8 +1,33 @@
+<!doctype html>
 <html>
 <head>
-   <title> Deep Linking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="assetlinks.json file" href="%PUBLIC_URL%/.well-known/assetlinks.json" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#37afda',
+                        glowOrange: '#d6ff65'
+                    }
+                }
+            }
+        }
+    </script>
+
 </head>
 <body>
-  Deep Linking testing
+<div class="flex items-center justify-center min-h-screen p-5 bg-glowOrange min-w-screen">
+
+    <div class="flex space-x-2 animate-pulse">
+        <div class="w-3 h-3 bg-clifford rounded-full"></div>
+        <div class="w-3 h-3 bg-clifford rounded-full"></div>
+        <div class="w-3 h-3 bg-clifford rounded-full"></div>
+    </div>
+
+</div>
 </body>
 </html>
