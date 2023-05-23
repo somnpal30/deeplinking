@@ -1,25 +1,24 @@
 {
-  applinks: {
-    apps: [],
-    details: [
-      {
-        appID: '9Y4YHDZW9Q.com.comviva.mobiquity.consumer.UAT',
-        paths: [
-          '*'
-        ]
-      },
-      {
-        appID: 'UCGJB2W675.com.comviva.mobiquity.subscriber',
-        paths: [
-          '*'
-        ]
-      },
-      {
-        appID: '9Y4YHDZW9Q.com.comviva.mobiquity.consumer.DEV',
-        paths: [
-          '*'
-        ]
-      }
-    ]
-  }
+	"applinks": {
+		"apps": [],
+		"details": [{
+				"appID": "9Y4YHDZW9Q.com.comviva.mobiquity.consumer.UAT",
+				"paths": [
+					"*"
+				]
+			},
+			{
+				"appID": "UCGJB2W675.com.comviva.mobiquity.subscriber",
+				"paths": [
+					"*"
+				]
+			},
+			{
+				"appID": "9Y4YHDZW9Q.com.comviva.mobiquity.consumer.DEV",
+				"paths": [
+					"*"
+				]
+			}
+		]
+	}
 }
